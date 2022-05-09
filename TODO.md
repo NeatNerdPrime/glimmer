@@ -43,6 +43,7 @@ Related TODO files:
 - Observe all attribute writers in an `OpenStruct` (observe `set_ostruct_member_value` method)
 - Support `recursive: true` with hashes that have nested hashes
 - Support `recursive: true` with models that have nested models
+- Observe multiple attributes or indexed/keyed/nested attribute expressions with a single observer
 
 ### Miscellaneous
 
