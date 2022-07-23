@@ -27,7 +27,7 @@ Featured in JRuby Cookbook](http://shop.oreilly.com/product/9780596519650.do) an
 - Supports building the tersest most concise domain specific language syntax in Ruby.
 - Maximum readability and maintainability.
 - No extra unnecessary block variables when not needed.
-- DSL Blocks are true Ruby closures that can conveniently leverage variables from the outside and utilize standard Ruby code in and around. Just code in Ruby as usual and be happy! No surprising restrictions or strange uses of `instance_exec`/`eval`.
+- DSL Blocks are true Ruby closures that can conveniently leverage variables from the outside and utilize standard Ruby code in and around. Just code in Ruby as usual without any hinderances! No surprising restrictions or strange uses of `instance_exec`/`eval`.
 - DSL syntax is limited to classes that mixin the `Glimmer` module, so the rest of the code is fully safe from namespace pollution.
 - Multiple DSLs may be [mixed](#multi-dsl-support) together safely to achieve maximum expressability, composability, and productivity.
 - DSLs are fully configurable, so you may activate and deactivate DSLs as per your current needs only.
