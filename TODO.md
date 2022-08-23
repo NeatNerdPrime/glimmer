@@ -9,6 +9,7 @@ Related TODO files:
 
 ## Next
 
+- Consider the idea of having Observer#observe accept an optional block to do observation without implementing `call` (kinda like when using the `observe` keyword in the Glimmer DSL). 
 - Observe an array for all children changes on a specific property (e.g. observe(@game, 'blocks[][].color') ; returns |new_color, block|)
 - Ensure removing observers from hash in ObservableModel when removed from observable
 - Avoid `< Struct.new` in specs (tests)
