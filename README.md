@@ -1364,7 +1364,7 @@ That is because Glimmer does everything that Shoes did, but with a lighter and b
 - Shoes does not support a native mechanism for building custom View components. Glimmer does support the ability to build custom widgets (aka controls or View components), custom windows (aka shells), and custom shapes (canvas graphics). That results in much higher productivity by enabling the reuse of higher visual concepts as their own self-encapsulated components.
 - Shoes does not expose native features of its wrapped GUI toolkit. Glimmer DSLs do expose all native features of their wrapped GUI toolkits, thus enabling developers to use a GUI toolkit like SWT directly when needed on top of using Glimmer DSL for SWT. That facilitates the 80/20 rule of having Glimmer DSLs automate 80% of the work while still enabling software engineers to reach down to the low-level GUI toolkit API in 20% of the cases when needed (though in practice, it's probably more like 1% of the cases).
 
-It is great that Shoes paved the way for creating desktop application development GUI DSLs in Ruby. Glimmer took that approach to its maximum and produced the ultimate evolution of Shoes.
+It is great that Shoes paved the way for creating desktop GUI DSLs in Ruby. Glimmer took that approach to its maximum and produced the ultimate evolution of Shoes.
 
 **What is the difference between Glimmer and Glimmer DSL for SWT?**
 
