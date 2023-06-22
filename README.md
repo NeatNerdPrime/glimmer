@@ -1356,7 +1356,7 @@ Learn more by reading the [GPG](PROCESS.md) (Glimmer Process Guidelines)
 
 If you liked Shoes, you'll love Glimmer!
 
-That is because Glimmer addresses all the issues that Shoes suffered from, such as:
+That is because Glimmer does everything that Shoes did, but with a lighter and better DSL that addresses all the issues that Shoes suffered from, such as:
 - Shoes does not allow block code to use variables defined outside of Shoes blocks. Glimmer DSL blocks are 100% standard Ruby blocks that represent real closures, so they enable usage of variables defined outside the blocks.
 - Shoes lacks support for high-quality business widget controls (View components) like table and tree. Glimmer DSLs that are feature complete like Glimmer DSL for SWT do support table and tree widgets. Some incomplete Glimmer DSLs like Glimmer DSL for LibUI support the table control too.
 - Shoes does not encourage proper separation of concerns with a correct MVC architecture (Model-View-Controller), resulting in a lot of non-presentation logic mixed with View code. Glimmer DSLs do support proper separation of concerns 100% following the MVC or MVP (Model-View-Presenter) architecture by default.
