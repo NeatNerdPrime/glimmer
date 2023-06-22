@@ -1352,7 +1352,7 @@ Learn more by reading the [GPG](PROCESS.md) (Glimmer Process Guidelines)
 
 (Frequently Asked Questions)
 
-**How does Glimmer GUI DSLs compare to Shoes?**
+**How do Glimmer GUI DSLs compare to Shoes?**
 
 If you've liked Shoes, you'll love Glimmer. That is because Glimmer addresses all the issues that Shoes suffered from, such as:
 - Shoes does not allow block code to use variables defined outside of Shoes blocks. Glimmer DSL blocks are 100% standard Ruby blocks that represent real closures, so they enable usage of variables defined outside the blocks.
