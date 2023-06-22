@@ -1386,6 +1386,12 @@ However, only Glimmer DSL for LibUI renders native controls on every platform (M
 
 Also, Glimmer DSL for LibUI does not require any prerequisites beyond installing the Ruby gem, so you can install it and get instant GUI with very little effort, whereas Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX do require extra dependencies in general, albeit Glimmer DSL for GTK has everything it needs in Linux Gnome flavors.
 
+**What is the difference between Glimmer DSL for SWT and Glimmer DSL for Swing and Glimmer DSL for JFX?**
+
+Glimmer DSL for SWT relies on the Eclipse SWT library, which renders native widgets on every platform (Mac, Windows, and Linux) to build desktop apps that look 100% native on every platform (Mac, Windows, and Linux). 
+
+Glimmer DSL for Swing relies on Swing, which does not render native widgets on every platform. Glimmer DSL for JFX relies on JavaFX, which also does not render native widgets on every platform.
+
 ## Resources
 
 * [Glimmer DSL for SWT Video Tutorials](https://andymaleh.blogspot.com/search/label/Tutorial+SWT)
