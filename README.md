@@ -1396,7 +1396,7 @@ Glimmer DSL for Swing relies on Swing, which does not render native widgets on e
 
 You may learn more about the differences between various Glimmer DSLs by checking out the [Glimmer DSL Comparison Table](#glimmer-dsl-comparison-table).
 
-**Why not just use SWT, LibUI, GTK, Tk, FOX Toolkit, Swing, JavaFX from Ruby directly?**
+**Why not just use SWT, LibUI, GTK, Tk, FOX Toolkit, Swing, or JavaFX from Ruby directly?**
 
 GUI Toolkits implement low-level GUI rendering concerns. And, while some of them do offer object-oriented APIs, their APIs are very verbose and imperative by design due to being low-level APIs. As such, they require software engineers to write a lot more low-level code that does not map intuitively to the structure of the GUI visually, slowing down productivity and making maintainability more expensive.
 
