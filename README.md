@@ -1348,6 +1348,22 @@ This example unidirectionally binds the enabled property of a widget like entry 
 
 Learn more by reading the [GPG](PROCESS.md) (Glimmer Process Guidelines)
 
+## FAQ
+
+(Frequently Asked Questions)
+
+**How does Glimmer GUI DSLs compare to Shoes?**
+
+If you've liked Shoes, you'll love Glimmer. That is because Glimmer addresses all the issues that Shoes suffered from, such as:
+- Shoes does not allow block code to use variables defined outside of Shoes blocks. Glimmer DSL blocks are 100% standard Ruby blocks that represent real closures, so they enable usage of variables defined outside the blocks.
+- Shoes lacks support for high-quality business widget controls (View components) like table and tree. Glimmer DSLs that are feature complete like Glimmer DSL for SWT do support table and tree widgets. Some incomplete Glimmer DSLs like Glimmer DSL for LibUI support the table control too.
+- Shoes does not encourage proper separation of concerns with a correct MVC architecture (Model-View-Controller), resulting in a lot of non-presentation logic mixed with View code. Glimmer DSLs do support proper separation of concerns 100% following the MVC or MVP (Model-View-Presenter) architecture by default.
+- Shoes does not provide a simple way of connecting View components to Model data. Glimmer provides full bidirectional/unidirectional data-binding support out of the box that provides the terest code syntax for connecting Views to Models and keeping them in sync.
+
+**What is the difference between Glimmer and Glimmer DSL for SWT?**
+
+Glimmer DSL for SWT was the first DSL created as part of the Glimmer project, and it was originally just called Glimmer. It relied on the Eclipse SWT library to render GUI widget controls (View components). Eventually, the idea of a Glimmer DSL proved itself successful and viable enough to migrate to other GUI toolkits, so Glimmer got renamed to Glimmer DSL for SWT, and the core DSL engine got extracted to Glimmer, which then got reused to provide other Glimmer GUI DSLs such as Glimmer DSL for LibUI, Glimmer DSL for Tk, and Glimmer DSL for GTK, among many others.
+
 ## Resources
 
 * [Glimmer DSL for SWT Video Tutorials](https://andymaleh.blogspot.com/search/label/Tutorial+SWT)
