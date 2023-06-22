@@ -1372,11 +1372,11 @@ Glimmer DSL for SWT was the first GUI DSL created as part of the Glimmer project
 
 **What is the difference between Glimmer DSL for SWT and Glimmer DSL for LibUI?**
 
-Both Glimmer DSL for LibUI and Glimmer DSL for SWT support rendering platform native widgets/controls, which enable building native desktop apps that look 100% native on every platform (Mac, Windows, and Linux). 
+Both Glimmer DSL for SWT and Glimmer DSL for LibUI support rendering platform native widgets/controls, which enable building native desktop apps that look 100% native on every platform (Mac, Windows, and Linux). 
 
-However, Glimmer DSL for LibUI runs in standard Ruby (aka MRI Ruby or CRuby) whereas Glimmer DSL for SWT runs in JRuby (Ruby running in the JVM [Java Virtual Machine]).
+However, Glimmer DSL for SWT runs in JRuby (Ruby running in the JVM [Java Virtual Machine]) whereas Glimmer DSL for LibUI runs in standard Ruby (aka MRI Ruby or CRuby).
 
-Glimmer DSL for SWT is 100% feature-complete and has a final release. Glimmer DSL for LibUI is 100% complete as far as covering the LibUI features, but LibUI itself is still a mid-alpha library, so it is missing a few features that would get added eventually.
+Glimmer DSL for SWT is 100% feature-complete and has a final release. Glimmer DSL for LibUI is 100% complete as far as covering the LibUI features, but LibUI itself is still a mid-alpha library, so it is missing a few features that will get added eventually.
 
 **What is the difference between Glimmer DSL for LibUI and Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX?**
 
