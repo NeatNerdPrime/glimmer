@@ -1359,6 +1359,7 @@ If you've liked Shoes, you'll love Glimmer. That is because Glimmer addresses al
 - Shoes lacks support for high-quality business widget controls (View components) like table and tree. Glimmer DSLs that are feature complete like Glimmer DSL for SWT do support table and tree widgets. Some incomplete Glimmer DSLs like Glimmer DSL for LibUI support the table control too.
 - Shoes does not encourage proper separation of concerns with a correct MVC architecture (Model-View-Controller), resulting in a lot of non-presentation logic mixed with View code. Glimmer DSLs do support proper separation of concerns 100% following the MVC or MVP (Model-View-Presenter) architecture by default.
 - Shoes does not provide a simple way of connecting View components to Model data. Glimmer provides full bidirectional/unidirectional data-binding support out of the box that provides the terest code syntax for connecting Views to Models and keeping them in sync.
+- Shoes does not support a way of building custom View components. Glimmer does support building custom windows, custom widgets, and custom shapes (canvas graphics). That results in much higher productivity by enabling reuse of higher visual concepts as their own self-encapsulated components.
 
 **What is the difference between Glimmer and Glimmer DSL for SWT?**
 
