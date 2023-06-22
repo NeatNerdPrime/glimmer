@@ -1396,6 +1396,14 @@ Glimmer DSL for Swing relies on Swing, which does not render native widgets on e
 
 You may learn more about the differences between various Glimmer DSLs by checking out the [Glimmer DSL Comparison Table](#glimmer-dsl-comparison-table).
 
+**Why not just use SWT, LibUI, GTK, Tk, FOX Toolkit, Swing, JavaFX from Ruby directly?**
+
+GUI Toolkits implement low-level GUI rendering concerns. And, while some of them do offer object-oriented APIs, their APIs are very verbose and imperative by design due to being low-level APIs. As such, they require software engineers to write a lot more low-level code that does not map intuitively to the structure of the GUI visually, slowing down productivity and making maintainability more expensive.
+
+Glimmer GUI DSLs on the other hand are fully declarative and they enable software engineers to write the simplest most minimalistic code that maps to the actual visual GUI concepts, thus maximizing productivity and resulting in code that is very maintainable. 
+
+Furthermore, Glimmer GUI DSLs offer advanced bidirectional/unidirectional data-binding support, which enables syncing View data with Model attributes with the tersest syntax possible while supporting proper separation of concerns and adherence to MVC (Model-View-Controller) and MVP (Model-View-Presenter). As a result, productivity increases further and maintainability becomes even less expensive, thus enabling software engineers to deliver pieces of software in a matter of minutes or hours for desktop application MVPs (Minimal Viable Products), significantly shortening the feedback cycle to enable incrementally releasing features at a very fast pace, not possible with GUI toolkit low-level APIs.
+
 ## Resources
 
 * [Glimmer DSL for SWT Video Tutorials](https://andymaleh.blogspot.com/search/label/Tutorial+SWT)
