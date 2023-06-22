@@ -1367,7 +1367,8 @@ It is great that Shoes paved the way for creating GUI DSLs in Ruby. Glimmer took
 
 **What is the difference between Glimmer and Glimmer DSL for SWT?**
 
-Glimmer DSL for SWT was the first DSL created as part of the Glimmer project, and it was originally just called Glimmer. It relied on the Eclipse SWT library to render GUI widget controls (View components). Eventually, the idea of a Glimmer DSL proved itself successful and viable enough to migrate to other GUI toolkits, so Glimmer got renamed to Glimmer DSL for SWT, and the core DSL engine got extracted to Glimmer, which then got reused to provide other Glimmer GUI DSLs such as Glimmer DSL for LibUI, Glimmer DSL for Tk, and Glimmer DSL for GTK, among many others.
+Glimmer DSL for SWT was the first GUI DSL created as part of the Glimmer project to enable building desktop applications, and it was originally just called Glimmer. It relied on the Eclipse SWT library to render GUI (Graphical User Interface) widget controls (View components) on every platform (Mac, Windows, and Linux). Eventually, the idea of a Glimmer DSL proved itself so successful and viable for building desktop apps with a fraction of the effort needed in other programming languages/technologies that it was expanded to support other GUI toolkits. So, Glimmer got renamed to Glimmer DSL for SWT, and the core Glimmer DSL engine got extracted to Glimmer (becoming a DSL framework), which then got reused to build other Glimmer GUI DSLs such as Glimmer DSL for LibUI, Glimmer DSL for GTK, among many others.
+
 
 ## Resources
 
