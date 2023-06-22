@@ -1378,7 +1378,7 @@ However, Glimmer DSL for SWT runs in JRuby (Ruby running in the JVM [Java Virtua
 
 Glimmer DSL for SWT is 100% feature-complete and has a final release. Glimmer DSL for LibUI is 100% complete as far as covering the LibUI features, but LibUI itself is still a mid-alpha library, so it is missing a few features that will get added eventually.
 
-**What is the difference between Glimmer DSL for LibUI and Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX?**
+**What is the difference between Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX?**
 
 All of Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX run in standard Ruby (aka MRI Ruby or CRuby).
 
@@ -1386,7 +1386,7 @@ However, only Glimmer DSL for LibUI renders native controls on every platform (M
 
 Also, Glimmer DSL for LibUI does not require any prerequisites beyond installing the Ruby gem, so you can install it and get instant GUI with very little effort, whereas Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX do require extra dependencies in general, albeit Glimmer DSL for GTK has everything it needs in Linux Gnome flavors.
 
-**What is the difference between Glimmer DSL for SWT and Glimmer DSL for Swing and Glimmer DSL for JFX?**
+**What is the difference between Glimmer DSL for SWT, Glimmer DSL for Swing, and Glimmer DSL for JFX?**
 
 Glimmer DSL for SWT relies on the Eclipse SWT library, which renders native widgets on every platform (Mac, Windows, and Linux) to build desktop apps that look 100% native on every platform (Mac, Windows, and Linux). 
 
