@@ -1394,7 +1394,7 @@ Glimmer DSL for SWT relies on the Eclipse SWT library, which renders native widg
 
 Glimmer DSL for Swing relies on Swing, which does not render native widgets on every platform. Glimmer DSL for JFX relies on JavaFX, which also does not render native widgets on every platform.
 
-Also, SWT initializes native widgets in memory using non-Java code (e.g. C/C++), thus ensuring native OS high performance for rendering native widgets without being prone to Java garbage collection pauses. On the other hand, Swing and JavaFX initialize non-native widgets in memory using Java code, thus depend on the performance of the Java Virtual Machine while being prone to Java garbage collection pauses. As a result, SWT ensures a better user experience than Swing and JavaFX.
+Also, SWT initializes native widgets in memory using non-Java code (e.g. C/C++), thus ensuring native OS high performance for rendering native widgets without being prone to Java garbage collection pauses. On the other hand, Swing and JavaFX initialize non-native widgets in memory using Java code, thus depend on the performance of the Java Virtual Machine while being prone to Java garbage collection pauses. As a result, SWT provides a better user experience than Swing and JavaFX.
 
 You may learn more about the differences between various Glimmer DSLs by checking out the [Glimmer DSL Comparison Table](#glimmer-dsl-comparison-table).
 
