@@ -1384,7 +1384,7 @@ All of Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimm
 
 However, only Glimmer DSL for LibUI renders native controls on every platform (Mac, Windows, and Linux). The other libraries do not render native controls on every platform, albeit Glimmer DSL for GTK renders native controls on Linux distributions utilizing Gnome.
 
-Also, Glimmer DSL for LibUI does not require any prerequisites beyond installing the Ruby gem, so you can install it and get instant GUI with very little effort, whereas Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX do require extra dependencies in general, albeit Glimmer DSL for GTK has everything it needs in Linux Gnome flavors.
+Also, Glimmer DSL for LibUI does not require any prerequisites beyond installing the Ruby gem, so you can install it and get instant GUI with very little effort, whereas Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX do require extra dependencies in general, albeit Glimmer DSL for GTK has everything it needs in Linux Gnome flavors and Glimmer DSL for FX has everything it needs in Windows.
 
 You may learn more about the differences between various Glimmer DSLs by checking out the [Glimmer DSL Comparison Table](#glimmer-dsl-comparison-table).
 
