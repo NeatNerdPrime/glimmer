@@ -71,6 +71,7 @@ DSL | Platforms | Native? | Vector Graphics? | Pros | Cons | Prereqs
       - [Glimmer DSL for CSS](#glimmer-dsl-for-css)
       - [Glimmer DSL for GTK (Ruby-GNOME Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-gtk)
       - [Glimmer DSL for FX (FOX Toolkit Ruby Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-fx)
+      - [Glimmer DSL for WX (wXwidgets Ruby Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-wx)
       - [Glimmer DSL for JFX (JRuby JavaFX Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-jfx)
       - [Glimmer DSL for Swing (JRuby Swing Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-swing)
   - [Data-Binding Library](#data-binding-library)
