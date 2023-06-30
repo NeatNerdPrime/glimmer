@@ -1380,13 +1380,13 @@ However, Glimmer DSL for SWT runs in JRuby (Ruby running in the JVM [Java Virtua
 
 Glimmer DSL for SWT is 100% feature-complete and has a final release. Glimmer DSL for LibUI is 100% complete as far as covering the LibUI features, but LibUI itself is still a mid-alpha library, so it is missing a few features that will get added eventually.
 
-**What is the difference between Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX?**
+**What is the difference between Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, Glimmer DSL for FX, and Glimmer DSL for WX?**
 
-All of Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX run in standard Ruby (aka MRI Ruby or CRuby).
+All of Glimmer DSL for LibUI, Glimmer DSL for GTK, Glimmer DSL for Tk, Glimmer DSL for FX, and Glimmer DSL for WX run in standard Ruby (aka MRI Ruby or CRuby).
 
-However, only Glimmer DSL for LibUI renders native controls on every platform (Mac, Windows, and Linux). The other libraries do not render native controls on every platform, albeit Glimmer DSL for GTK renders native controls on Linux distributions utilizing Gnome.
+However, only Glimmer DSL for LibUI and Glimmer DSL for WX render native controls on every platform. The other libraries do not render native controls on every platform, albeit Glimmer DSL for GTK renders native controls on Linux distributions utilizing Gnome.
 
-Also, Glimmer DSL for LibUI does not require any prerequisites beyond installing the Ruby gem, so you can install it and get instant GUI with very little effort, whereas Glimmer DSL for GTK, Glimmer DSL for Tk, and Glimmer DSL for FX do require extra dependencies in general, albeit Glimmer DSL for GTK has everything it needs in Linux Gnome flavors and Glimmer DSL for FX has everything it needs in Windows.
+Also, Glimmer DSL for LibUI does not require any prerequisites beyond installing the Ruby gem, so you can install it and get instant GUI with very little effort, whereas Glimmer DSL for GTK, Glimmer DSL for Tk, Glimmer DSL for FX, and Glimmer DSL for WX do require extra dependencies in general, albeit Glimmer DSL for GTK has everything it needs in Linux Gnome flavors and both Glimmer DSL for FX and Glimmer DSL for WX have everything they need on Windows by including pre-built binaries.
 
 You may learn more about the differences between various Glimmer DSLs by checking out the [Glimmer DSL Comparison Table](#glimmer-dsl-comparison-table).
 
@@ -1400,7 +1400,7 @@ Also, SWT initializes native widgets in memory using non-Java code (e.g. C/C++),
 
 You may learn more about the differences between various Glimmer DSLs by checking out the [Glimmer DSL Comparison Table](#glimmer-dsl-comparison-table).
 
-**Why not just use SWT, LibUI, GTK, Tk, FOX Toolkit, Swing, or JavaFX from Ruby directly?**
+**Why not just use SWT, LibUI, GTK, Tk, FOX Toolkit, wxWidgets, Swing, or JavaFX from Ruby directly?**
 
 GUI Toolkits implement low-level GUI rendering concerns. And, while some of them do offer object-oriented APIs, their APIs are very verbose and imperative by design due to being low-level APIs. As such, they require software engineers to write a lot more low-level code that does not map intuitively to the structure of the GUI visually, slowing down productivity and making maintainability more expensive.
 
