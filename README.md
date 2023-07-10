@@ -75,6 +75,7 @@ DSL | Platforms | Native? | Vector Graphics? | Pros | Cons | Prereqs
       - [Glimmer DSL for JFX (JRuby JavaFX Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-jfx)
       - [Glimmer DSL for Swing (JRuby Swing Desktop Development GUI Library)](https://github.com/AndyObtiva/glimmer-dsl-swing)
   - [Data-Binding Library](#data-binding-library)
+  - [FAQ](#faq)
   - [Glimmer Process](#glimmer-process)
   - [Resources](#resources)
   - [Help](#help)
