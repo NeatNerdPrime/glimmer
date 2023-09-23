@@ -8,7 +8,7 @@
 
 **[If You Liked Shoes, You'll Love Glimmer!](#faq)**
 
-**(Original Glimmer Library Handling the World’s Ruby GUI Needs Since 2007. Beware of Imitators!)**
+**(Original Glimmer Library Handling World’s Ruby GUI Needs Since 2007. Beware of Imitators!)**
 
 (**[Glimmer DSL for LibUI Won a Fukuoka Ruby 2022 Special Award](https://andymaleh.blogspot.com/2022/02/glimmer-dsl-for-libui-wins-fukuoka-ruby.html)** [[Announcement]](http://www.digitalfukuoka.jp/topics/187?locale=ja))
 
