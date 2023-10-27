@@ -70,6 +70,7 @@ Related TODO files:
 - glimmer-dsl-optparse: A clean Glimmer DSL for optparse since its built-in DSL is extremely verbose and redundant
 - glimmer-dsl-tui: Glimmer DSL for Text-Based User Interfaces (aka Textual User Interfaces). Have it adapt desktop apps just like Glimmer DSL for Opal
 - glimmer-dsl-object: A configuration DSL for building any Ruby object via DSL syntax instead of plain old Ruby syntax (perhaps replacing PropertyExpression in Glimmer DSL for SWT with it) (perhaps using as a way to scaffold the base of new DSLs since they all share a few things like elements, properties, listeners, and data-binding)
+- glimmer-dsl-ruby: Use Glimmer DSL to generate Ruby code. Useful for building class generators as an alternative to ERB
 
 ```ruby
 class(*init_args) {
