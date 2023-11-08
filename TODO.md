@@ -50,6 +50,7 @@ Related TODO files:
 - Support `recursive: true` with hashes that have nested hashes
 - Support `recursive: true` with models that have nested models
 - Observe multiple attributes or indexed/keyed/nested attribute expressions with a single observer
+- Consider the idea of having before_read and before_write support cancelling a data-binding operation by returning `false`, returning `:cancel`, Or by receiving an extra arg that enables calling arg.cancel on or something similar to avoid having normal code cancel the data-binding operation just because it returns nil.
 
 ### Miscellaneous
 
