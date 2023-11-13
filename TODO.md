@@ -9,6 +9,8 @@ Related TODO files:
 
 ## Next
 
+- Fix issue with computed data-binding when combined with nested/indexed data-binding (it looks up computed attributes on root object instead of nested object, it seems)
+- Support nested computed attributes (e.g. computed_by: {address1: [:street, :city, :state, :zip]})
 - Consider the idea of having Observer#observe accept an optional block to do observation without implementing `call` (kinda like when using the `observe` keyword in the Glimmer DSL). 
 - Observe an array for all children changes on a specific property (e.g. observe(@game, 'blocks[][].color') ; returns |new_color, block|)
 - Ensure removing observers from hash in ObservableModel when removed from observable
