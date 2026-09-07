@@ -3,6 +3,10 @@
 Related Change Logs:
 - [glimmer-dsl-swt/CHANGELOG.md](https://github.com/AndyObtiva/glimmer-dsl-swt/blob/master/CHANGELOG.md)
 
+### 2.8.3
+
+- Support auto-notifying on `ObservableArray#insert` observed changes
+
 ### 2.8.2
 
 - Tighten dependency on the facets gem to version 3.1.0 specifically because 3.2.0 has many breaking changes

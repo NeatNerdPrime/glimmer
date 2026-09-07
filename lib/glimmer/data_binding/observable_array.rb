@@ -343,6 +343,15 @@ module Glimmer
       end
       alias prepend unshift
 
+      def insert(index, *elements)
+        super(index, *elements).tap do
+          elements.each do |element|
+            add_element_observers(element)
+          end
+          notify_observers
+        end
+      end
+
       def reject!(&block)
         if block.nil?
           super

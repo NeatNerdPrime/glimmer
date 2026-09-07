@@ -377,6 +377,98 @@ module Glimmer
           expect(@fired).to eq(true)
         end
         
+        it 'notifies observers when Array#insert is called with one argument' do
+          @fired = false
+          observer = Observer.proc {
+            @fired = true
+          }
+          array = [project_task1]
+          array.singleton_class.include(ObservableArray)
+          array.add_observer(observer, [:name, :priority])
+
+          old_element = array[0]
+          array.insert(0, project_task3)
+          expect(array).to eq([project_task3, project_task1])
+          expect(array[1]).to eq(old_element)
+          expect(@fired).to eq(true)
+          
+          @fired = false
+          old_element.name = 'Paint Car'
+          expect(@fired).to eq(true)
+
+          @fired = false
+          old_element.project_name = 'Garage Improvement'
+          expect(@fired).to eq(false)
+
+          @fired = false
+          old_element.priority = 'Medium'
+          expect(@fired).to eq(true)
+          
+          @fired = false
+          array[0].name = 'Power Car'
+          expect(@fired).to eq(true)
+
+          @fired = false
+          array[0].project_name = 'Garage Upgrade'
+          expect(@fired).to eq(false)
+
+          @fired = false
+          array[0].priority = 'Low'
+          expect(@fired).to eq(true)
+        end
+        
+        it 'notifies observers when Array#insert is called with multiple arguments' do
+          @fired = false
+          observer = Observer.proc {
+            @fired = true
+          }
+          array = [project_task1]
+          array.singleton_class.include(ObservableArray)
+          array.add_observer(observer, [:name, :priority])
+
+          old_element = array[0]
+          array.insert(0, project_task2, project_task3)
+          expect(array).to eq([project_task2, project_task3, project_task1])
+          expect(array[2]).to eq(old_element)
+          expect(@fired).to eq(true)
+          
+          @fired = false
+          old_element.name = 'Paint Car'
+          expect(@fired).to eq(true)
+
+          @fired = false
+          old_element.project_name = 'Garage Improvement'
+          expect(@fired).to eq(false)
+
+          @fired = false
+          old_element.priority = 'Medium'
+          expect(@fired).to eq(true)
+          
+          @fired = false
+          array[0].name = 'Power Car'
+          expect(@fired).to eq(true)
+
+          @fired = false
+          array[0].project_name = 'Garage Upgrade'
+          expect(@fired).to eq(false)
+
+          @fired = false
+          array[0].priority = 'Low'
+          expect(@fired).to eq(true)
+          
+          @fired = false
+          array[1].name = 'Better Car'
+          expect(@fired).to eq(true)
+
+          @fired = false
+          array[1].project_name = 'Garage Work'
+          expect(@fired).to eq(false)
+
+          @fired = false
+          array[1].priority = 'High'
+          expect(@fired).to eq(true)
+        end
+        
         it 'notifies observers when Array#pop is called' do
           @fired = false
           observer = Observer.proc {
